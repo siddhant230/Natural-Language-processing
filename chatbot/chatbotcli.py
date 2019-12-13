@@ -10,7 +10,7 @@ nltk.download('punkt')
 
 warnings.filterwarnings('ignore')
 engine=pyttsx3.init('sapi5')
-client=wolframalpha.Client('JGQG46-Y5WTEL7J5G')
+client=wolframalpha.Client('Your wolfram client id here in single quotes')
 voice=engine.getProperty('voices')
 stemmer=LancasterStemmer()
 
@@ -20,7 +20,7 @@ message=''
 neg=1
 engine.setProperty('rate', speed)
 options = webdriver.ChromeOptions()
-with open('C:\\Users\\tusha\Desktop\json file\\intents.json') as f:
+with open('C:\\Users\\tusha\Desktop\json file\\intents2.json') as f:
     data=json.load(f)
 
 model=joblib.load('C:\\Users\\tusha\Downloads\chat_bot.pkl')
