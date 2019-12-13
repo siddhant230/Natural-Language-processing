@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up","hey there","hey steve"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","hey bruhh","hello sir","I am here for your help"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","tata","I am going now,Bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!","Hum aapki raah dekhenge","Bye Bye","SaiyoNara"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is Steve", "what is your age", "how old are you", "age?"],
+         "responses": ["I am a bot I don't age!", "0 years young!","I am a New born Bot","No personal Question,Please!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?","you name brother"],
+         "responses": ["You can call me steve.", "I'm steve!", "steve here."],
+         "context_set": ""
+        },
+        {"tag": "life",
+         "patterns": ["What is life", "Are you fine", "what do you think about life?", "what is secret of universe","what is reality"],
+         "responses": ["Life is an act—most of it, anyway. Get out there today and pretend you're in charge, for goodness sake. Do you hear me? Lift up your head and pretend. A flicker of a smile passed over her face.","It's the secret to everything.", "Life is the Canvas which You paint by your Karma","You are the source of everything!"],
+         "context_set": ""
+        },
+        {"tag": "emotions",
+         "patterns": ["I am sad", "I feel frustrated", "I dont feel so good"],
+         "responses": ["Don't be sad!","Get up and Shine","Our greatest glory is not in never falling, but in rising every time we fall"],
+         "context_set": ""
+        },
+        {"tag": "quotes",
+         "patterns": ["tell me a quote", "Quote of the day", "I need some motivation"],
+         "responses": ["It doesn't take a lot of strength to hang on. It takes a lot of strength to let go.","The man who is swimming against the stream knows the strength of it.","Our greatest glory is not in never falling, but in rising every time we fall","It doesn't take a lot of strength to hang on. It takes a lot of strength to let go.","The man who is swimming against the stream knows the strength of it.","Our greatest glory is not in never falling, but in rising every time we fall"],
+         "context_set": ""
+        },
+        {"tag": "about",
+         "patterns": ["tell me a about youself", "who are you?"],
+         "responses": ["I am a Bot designed by Siddhant as part of his NLP project","I am a chatbot,I can answer your queries and help in your day to day problems"],
+         "context_set": ""
+        },
+      {"tag": "creator",
+         "patterns": [ "who made you?","who is your creator?","who designed you?","who is your father?"],
+         "responses": ["Siddhant Sir made me","Siddhant rai","Siddhant Sir created me."],
+         "context_set": ""
+        }
+   ]
+}
